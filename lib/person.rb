@@ -18,4 +18,3 @@ class Person
 end 
 
 beyonce = Person.new 
-beyonce.@job = "Singer"
