@@ -1,20 +1,21 @@
-class Person 
-  def name (this_persons_name)
-    @name= this_person_name 
-  end 
+class Person
   
-  def name 
+  def name=(name)
+    @name = name
+  end
+  
+  def name
     @name
+  end
+
+  def job=(job)
+    @job = job
   end 
-  
-  def job (this_persons_job)
-    @job = this_persons_job
-  end 
-  
-  def job
+
+  def job 
     @job
   end 
   
-end 
+end
 
 beyonce = Person.new 
